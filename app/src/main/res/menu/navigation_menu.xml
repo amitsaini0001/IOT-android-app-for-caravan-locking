@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity"
+
+>
+
+
+<group android:id="@+id/grp1">
+    <item android:id="@+id/nav_home"
+          android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+          android:onClick="clickEvent"/>
+
+    <item android:id="@+id/nav_connect"
+        android:title="Connect a wuli"
+        android:icon="@drawable/ic_fingerprint_black_24dp"
+          android:onClick="clickEvent"/>
+
+    <item android:id="@+id/nav_logs"
+        android:title="Logs"
+        android:icon="@drawable/ic_collections_bookmark_black_24dp"
+          android:onClick="clickEvent"/>
+
+    <item android:id="@+id/nav_lcation"
+        android:icon="@drawable/ic_my_location_black_24dp"
+        android:title="Location"
+          android:onClick="clickEvent"/>
+</group>
+<group android:id="@+id/grp2">
+    <item android:id="@+id/nav_help"
+        android:icon="@drawable/ic_flag_black_24dp"
+        android:title="Help"
+          android:onClick="clickEvent"/>
+
+    <item android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share"
+          android:onClick="clickEvent"/>
+</group>
+</menu>

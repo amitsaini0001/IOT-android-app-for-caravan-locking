@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Wuli</string>
+    <string name="nav_open">Open</string>
+    <string name="na_close">Close</string>
+    <string name="linktovisit">
+        <a href="http://www.wuli.com.au/">Visit Our Website</a>
+    </string>
+    <string name="linktofb">
+        <a href="https://www.facebook.com/Wuli-Pty-Ltd-463447044038625/">Like us on Facebook</a>
+    </string>
+    <string name="linktofrequent">
+        <a href="http://www.wuli.com.au/faq/">Frequently Asked Questions</a>
+    </string>
+    <string name="linktowuli">
+        <a href="http://www.wuli.com.au/about-wuli/">About WULI</a>
+    </string>
+    <string name="linktoyoutube">
+        <a href="https://www.youtube.com/channel/UCLgcADpEt2ToOZK7x3TTpYg">Watch us on Youtube</a>
+    </string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
